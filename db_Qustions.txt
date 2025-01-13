@@ -1,0 +1,89 @@
+Advantage of NOSQL DBs over RDBMS?
+NoSQL databases have several advantages over traditional relational databases (RDBMS) that make them particularly suitable for certain types of applications. Here are some of the key benefits:
+ 
+Scalability:
+NoSQL: Typically designed to scale horizontally, meaning you can add more servers to handle increased loads. This makes them suitable for handling large volumes of data and high traffic loads.
+ 
+RDBMS: Usually scales vertically, which means increasing the capacity of a single server (more CPU, RAM, etc.). Horizontal scaling (adding more servers) is more complex.
+ 
+Flexibility in Data Models:
+NoSQL: Supports various data models, such as key-value, document, column-family, and graph databases, which can be more naturally aligned with specific application needs.
+ 
+RDBMS: Uses a fixed schema defined by tables and relations, which can be less flexible when dealing with unstructured or semi-structured data.
+ 
+Schema-less Design:
+NoSQL: Many NoSQL databases are schema-less, allowing you to store data without predefined schema. This is useful for applications where the data structure can evolve over time.
+ 
+RDBMS: Requires a predefined schema, and changes to the schema (like adding columns) can be complex and disruptive.
+ 
+Handling Big Data:
+NoSQL: Well-suited for handling big data due to their ability to distribute data across multiple servers and their efficient storage formats.
+ 
+RDBMS: Can struggle with performance and scaling issues when dealing with very large datasets.
+ 
+Performance:
+NoSQL: Optimized for specific use cases, such as read-heavy or write-heavy workloads. Often offers better performance for large-scale applications.
+RDBMS: Performance can degrade with very large datasets or high transaction volumes.
+ 
+Distributed Architecture:
+NoSQL: Many NoSQL databases are designed to work in a distributed architecture, providing high availability and disaster recovery.
+ 
+RDBMS: While it's possible to use RDBMS in a distributed setup, it often requires additional configuration and management.
+ 
+Complex Relationships:
+RDBMS: Excels at managing complex relationships between data through joins and foreign keys.
+ 
+NoSQL: Typically does not use joins, which can simplify certain types of queries but may complicate others. However, graph databases (a type of NoSQL) are designed specifically for handling complex relationships.
+ 
+Use Cases:
+ 
+NoSQL: Ideal for applications requiring high scalability and flexibility, such as content management systems, real-time analytics, and Internet of Things (IoT) applications.
+ 
+RDBMS: Best for applications needing ACID (Atomicity, Consistency, Isolation, Durability) transactions and complex queries, such as financial systems and enterprise resource planning (ERP) systems.
+ 
+Each type of database has its strengths and is suited to different scenarios. The choice between NoSQL and RDBMS should be based on the specific requirements and constraints of your application.
+ 
+When to use NO SQL Dbs and when to use RDBMS?
+Choosing between NoSQL databases and relational databases (RDBMS) depends on your specific use case, data requirements, and application needs. Here's a general guide on when to use each:
+ 
+When to Use NoSQL Databases:
+Large Scale Data Handling:
+When dealing with vast amounts of unstructured or semi-structured data.
+Ideal for big data applications where data volume and variety are high.
+ 
+Flexible Schema:
+When you need a flexible schema that can evolve over time without major changes.
+Useful for applications where the data model is not fixed and can change frequently.
+ 
+High Scalability:
+When horizontal scalability is crucial. NoSQL databases are designed to scale out by adding more servers.
+Suitable for applications expecting rapid growth in data volume or traffic.
+ 
+Distributed Data:
+When data distribution and high availability are required.
+NoSQL databases often provide built-in support for distributed data across multiple nodes.
+ 
+Specific Use Cases:
+Real-time analytics, content management systems, IoT applications, and social networks.
+Applications that need to handle a wide variety of data types and high write/read throughput.
+ 
+When to Use Relational Databases (RDBMS):
+Structured Data:
+When dealing with highly structured data that fits well into tables and relations.
+Ideal for applications with a well-defined schema and relationships.
+ 
+ACID Transactions:
+When you need strong consistency and ACID (Atomicity, Consistency, Isolation, Durability) properties for transactions.
+Crucial for applications requiring reliable and consistent transactions, like banking and financial systems.
+ 
+Complex Queries and Joins:
+When you need to perform complex queries, joins, and reporting.
+RDBMS are well-suited for applications that require complex relational data handling and querying.
+ 
+Established Standards:
+When you prefer using established standards and mature technologies with a wide range of tools and support.
+Suitable for applications with long-term stability and compatibility requirements.
+ 
+Specific Use Cases:
+Enterprise resource planning (ERP) systems, customer relationship management (CRM) systems, and any application where data integrity and relationships are critical.
+has context menu

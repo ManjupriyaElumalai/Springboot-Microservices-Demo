@@ -1,0 +1,231 @@
+
+
+Java:
+ 
+OOPS:
+
+Polymorphism / Inheritance / Abstraction / Coupling
+ 
+Abstract Class vs Interface
+ 
+Collections:
+
+List / Map / Set / HashTable
+ 
+Working of hashMap
+ 
+Threads:
+
+How many ways we can create thread and which way is efficient and why?
+
+Exceptions:
+
+How to create custom exception?
+
+try - catch - finally
+ 
+Garbage collection
+ 
+Java-8 concepts:
+
+Functional Interface
+
+Lambdas
+
+Optional
+
+Streams
+ 
+ 
+what method used by filter, for each, collect, map in java 8 internally?
+
+How to tune a java method if want response faster
+ 
+ 
+Programming:
+ 
+Create a linkedList perform add,retreive and delete operation on it.(without using Collection frameWork).
+ 
+Find the first pair of two numbers in an unsorted array whose sum is equal to the given number.
+ 
+int a[] = {1,3,4,5,7,4,6,8}
+
+input = 8
+
+ouput = {3,5}
+ 
+Each character count  in given string with and without using streams api.
+
+Create a linkedList perform add,retreive and delete operation on it.(without using Collection frameWork).
+
+Write function or method to find out if an integer value k is present in sorted integer Array? No predefined methods should be used.
+ 
+ 
+Spring / Spring boot:
+
+what are the advantages of using springboot ?
+
+What is difference between Controller and RestController?
+
+If i have 4 service and Service A is calling B and so on and if transaction failed in between then how to handle transactions and rollback in microservices architecture?
+
+how use performance tuning in your project ?
+
+How to increase performance of an application?
+
+what is circular dependency in spring?
+
+what is differnce between controller and restcontroller?
+
+what is difference between Request param and pathvariable?
+
+What is Jpa and Hibernate ? Advantage of jpa over JDBC.
+
+What is IOC ? explain the difference between spring IOC and dependency inversion.
+
+Why we use spring transactions and how to use it?
+
+Spring security authentication and authorization
+ 
+Rest:
+
+Annotation to used for both xml and json datatype in rest api?
+
+what is Idempotent method in Rest API?
+ 
+ 
+Microservices:
+
+How to handle multiple database scenario in microservice architecture?
+
+what is microservices and why we use it?
+
+How to enhance perforance of your application using performance tuning in microservices architecture ?
+
+Disadvantage of Microservices
+
+how to trace any issues if any of your microservice fails and what tools we can use?
+ 
+What are design patterns and how many types are there ?
+ 
+SQL: 
+
+How to optimize sql query ?
+
+What are views used for?
+ 
+DevOps / CI-CD:
+ 
+What is kubernetes and useful command used in it.
+ 
+what is KAFKA and why we use it?
+
+What is kafka architecture and how kafka stream works?
+
+How to configure kafka consumer and producer in springboot?
+ 
+ 
+Angular:
+ 
+what is Decorators in Angular ? - @input, @injectible -> 
+
+what is differnce between Observable and Promise ? Promise - return in method (async and await)
+
+What is components used in angular?
+
+What is typescript in angular ?
+ 
+ 
+Q1. What is Spring Boot and What Are Its Main Features? Spring Boot is essentially a framework for rapid application development built on top of the Spring Framework. ...
+
+Q2. What Are the Differences Between Spring and Spring Boot? The Spring Framework provides multiple features that make the development of web applications easier. ...
+
+Q3. How Can We Set up a Spring Boot Application With Maven? We can include Spring Boot in a Maven project just like we would any other library. ...
+
+Q4. What is Spring Initializr? Spring Initializr is a convenient way to create a Spring Boot project. ...
+
+Q5. What Spring Boot Starters Are Available out There? Each starter plays a role as a one-stop-shop for all the Spring technologies we need. ...
+
+Q6. How to Disable a Specific Auto-Configuration? If we want to disable a specific auto-configuration, we can indicate it using the exclude attribute of the @EnableAutoConfiguration annotation. ...
+
+Q7. How to Register a Custom Auto-Configuration? To register an auto-configuration class, we must have its fully-qualified name listed under the EnableAutoConfiguration key in the META-INF/spring.factories file: org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.baeldung.autoconfigure.CustomAutoConfiguration If we ...
+
+Q8. How to Tell an Auto-Configuration to Back Away When a Bean Exists? ...
+
+Q9. How to Deploy Spring Boot Web Applications as Jar and War Files? Traditionally, we package a web application as a WAR file, then deploy it into an external server. ...
+
+Q10. How to Use Spring Boot for Command Line Applications? Just like any other Java program, a Spring Boot command line application must have a main method. ...
+
+Q11. What Are Possible Sources of External Configuration? Spring Boot provides support for external configuration, allowing us to run the same application in various environments. ...
+
+Q12. What Does it Mean that Spring Boot Supports Relaxed Binding? Relaxed binding in Spring Boot is applicable to the type-safe binding of configuration properties. ...
+
+Q13. What is Spring Boot Devtools Used For? Spring Boot Developer Tools, or DevTools, is a set of tools making the development process easier. ...
+
+Q14. How to Write Integration Tests? When running integration tests for a Spring application, we must have an ApplicationContext. ...
+
+Q15. What Is Spring Boot Actuator Used For? Essentially, Actuator brings Spring Boot applications to life by enabling production-ready features. ...
+
+Q16. Which Is a Better Way to Configure a Spring Boot Project Using Properties or YAML? ...
+
+Q17. What Are the Basic Annotations that Spring Boot Offers? The primary annotations that Spring Boot offers reside in its org.springframework.boot.autoconfigure and its sub-packages. ...
+
+Q18. How Can You Change the Default Port in Spring Boot? ...
+
+Q19. Which Embedded Servers does Spring Boot Support, and How to Change the Default? As of date, Spring MVC supports Tomcat, Jetty, and Undertow. ...
+
+Q20. Why Do We Need Spring Profiles?
+ 
+1.	Packaging microservice with security certificates and deployment
+
+2.	JPA – Any challenges faced with complex queries and how did you resolved?
+
+3.	As part of JDBC to JPA migration, Can I use same JDBC query in JPA repository ?
+
+4.	How do we orchestrate among microservices? Architecture?
+
+5.	What are the database optimization techniques for fast data retrieval?
+
+6.	Can we apply indexes on 50 columns of table ? (table has 100 columns)
+
+7.	How will you call external API or rest service ?
+
+8.	How will you handle errors (HTTP Error :404) from external API ?
+
+9.	How will ensure your service more resilient?
+
+10.	How Spring helps on resilient services ?
+
+11.	How kafka/event driven helps resilient services(100% availability)?
+
+12.	SAGA pattern
+
+13.	Ques role in microservice
+
+14.	API Gateway (oauth)
+
+15.	Kafka – Publish & Subscribe model
+
+16.	Kubernetes commands
+
+17.	Spring boot
+
+18.	How the resource created & deployed in Kubernetes/docker
+
+19.	How spring feature are using for microservice development?
+
+20.	What is complex microservice (Architecture) that you developed in your project
+
+21.	Java 1.8, Lambda expression, Streams (Code for sort & filter specific item from Array)
+
+22.	Rest Controller (Code asked)
+
+what is post man how is it used.
+
+write few git commands to push and pull.
+
+difference between gradle and maven.
+
+Design patterns
+
+ 

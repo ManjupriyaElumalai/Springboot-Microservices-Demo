@@ -1,0 +1,171 @@
+1.what is lamda expression?
+
+Write code in lamda expressions.
+
+2.Write lamda expression without parameter
+
+3.How to maintain number of connections to db from spring boot application?
+
+4.How to restrict to number of database connection to 10 ?
+
+5. What is hikari cp?
+
+6. Have you used multiple databases in same aplication?
+
+   If yes how can you achieve this?
+
+7. How to access diffrent instances of same database for diffrent environment for same spring boot application?
+
+8. How to display  sql queries in application log?
+
+9. If the primary column field is combination of column, then in JPA how to use it as @id field?
+
+10. How to call storedprocedure or functions from Java?
+
+11. Diffrent ways to pass data/parameter to Rest controller
+
+12. Can we make Headers passed to rest endpoints required or optional?
+
+13. What do you understand by Synchronous and asynchronous requests? Explain with use case.
+
+14. Have you used Splunk? Any knowledge about splunk queries?
+
+15. Explain left join? diffrent ways to achieve left join?
+
+Packaging microservice with security certificates and deployment
+
+JPA – Any challenges faced with complex queries and how did you resolved?
+
+As part of JDBC to JPA migration, Can I use same JDBC query in JPA repository ?
+
+How do we orchestrate among microservices? Architecture?
+
+What are the database optimization techniques for fast data retrieval?
+
+Can we apply indexes on 50 columns of table ? (table has 100 columns)
+
+How will you call external API or rest service ?
+
+How will you handle errors (HTTP Error :404) from external API ?
+
+How will ensure your service more resilient?
+
+How Spring helps on resilient services ?
+
+How kafka/event driven helps resilient services(100% availability)?
+
+SAGA pattern
+
+Ques role in microservice
+
+API Gateway
+
+Kafka – Publish & Subscribe model
+
+Kubernetes commands
+
+Spring boot
+
+How the resource created & deployed in Kubernetes/docker
+
+How spring feature are using for microservice development?
+
+What is complex microservice (Architecture) that you developed in your project
+
+Java 1.8, Lambda expression, Streams (Code for sort & filter specific item from Array)
+
+Rest Controller (Code asked)
+ 
+asked about rest controllers/web 
+
+docker container, 
+
+server or serverless aws 
+
+how to work with containers
+
+load balancer
+
+monolithics and microservice architecture
+
+Threads and process
+
+webstore
+
+multithreading 
+
+threads program, 
+
+one spring program
+
+Explain about recent challenges in Springboot and how you resolved
+
+Latest version of MS SQL used - Any migrations you worked on ?
+
+How good are you in SQL queries - Explain few examples on your experience
+
+Any experience in Kubernetes ?
+
+Different steps when developing a RestAPI
+
+How to validate if a request is valid or not when developing RestAPI
+
+Difference between @component and @service
+
+In service class if we use @component will there be any impact ?
+
+Advantage of using @service instead of @component
+
+Have u worked on any New implementation of functionalities in Java 11
+
+Where do you use streams
+
+Any experince in Kafka ?
+
+Kafka and Pubsub
+
+Have you written any producer application and consumer application ?
+
+How security is maintained in pubsub.
+
+How do you manage Serialization and Deserialization
+
+How do you guarantee the order of message
+
+Any idea on Offset concept in Kafka ?
+
+What are the 12 factor principles while developing Microservices
+
+What is Domain driven design - Explain with an example
+
+When converting from Monolithic to microservices - How do you design DBs in Microservice, whats the approach you take
+
+Implemented any log monitoring tools ?
+
+How do you monitor any recurring errors ?
+
+Any experience in configuring Splunk for failure alerts ? How will you do it ?
+
+Any NOSQL DBs you have worked ?
+
+Advantage of NOSQL DBs over RDBMS.
+
+When to use NO SQL Dbs and when to use RDBMS ?
+
+How interservice communication happen in Microservices
+
+How to do Exception handling and fallback
+
+Circuit breaker
+
+Configuration for all microservices
+
+Explain Solid principles in Java
+
+Angular exposure - How good are you in developing web based front end applications ?
+
+In Angular, have you done any microservices type of design ?
+
+Collaborated with Onshore resources, clients at Onshore ?
+has context menu
+ 

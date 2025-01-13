@@ -1,0 +1,38 @@
+1. Description:
+
+Field empService in com.springboot.demo.controller.EmpController required a bean of type 'com.springboot.demo.service.EmpService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboot.demo.service.EmpService' in your configuration.
+
+reason and solution:
+Here I missed the @service annotaion in service class, so u added in class, it will solve.
+
+2. java.lang.NullPointerException: Cannot invoke "com.springboot.demo.repository.EmpRepository.findAll()" because "this.empRepository" is null
+	at com.springboot.demo.service.EmpService.empAll(EmpService.java:17) ~[classes/:na]
+	at com.springboot.demo.controller.EmpController.getAllEmp(EmpController.java:26) ~[classes/:na]
+postman error:
+{
+    "timestamp": "2024-11-29T08:02:05.711+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "trace": "java.lang.NullPointerException: Cannot invoke \"com.springboot.demo.repository.EmpRepository.findAll()\" because \"this.empRepository\" is null\r\n\tat com.springboot.demo.service.EmpService.empAll(EmpService.java:17)\r\n\tat com.springboot.demo.controller.EmpController.getAllEmp(EmpController.java:26)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.
+
+solution:
+postman:
+If postman getting 500 error means, definitely u something missed in code, so check it and fix it.
+code:
+The service class fetch response through the repo class but I missed @autowired annotation in service class. so added and fixed it.
+
+3. 2024-11-29T13:55:38.373+05:30[0;39m [31mERROR[0;39m [35m292[0;39m [2m--- [SpringBoot-RestAPI-Own-App] [io-8085-exec-10] [0;39m[36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.springboot.demo.entity.Emp#3]] with root cause
+
+org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.springboot.demo.entity.Emp#3]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:426) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+
+error: Here, I did mistake in postman, like for post method I added id too, bcz the ID in code we mentioned auto generate right.so we added in post hit getting this error.
+solution: after, I removed id in postman then it's worked.
