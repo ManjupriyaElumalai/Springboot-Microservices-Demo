@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "1cef38d2-0b0c-40c0-98eb-e8031189bd2b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39746668"
+	},
+	"item": [
+		{
+			"name": "GetAllEmp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/emp/empall",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"emp",
+						"empall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actuator_Env",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/actuator/env",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"actuator",
+						"env"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByName_sorting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/emp/empall",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"emp",
+						"empall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ByEmpId",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8085/findBy/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"findBy",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete By EmpId",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8085/deleteBy/53",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"deleteBy",
+						"53"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveEmp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 2,\r\n        \"firstName\": \"udhaya\",\r\n        \"lastName\": \"Priya\",\r\n        \"emailId\": \"udhaya@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/emp/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"emp",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update EmpRecord",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"firstName\": \"Gopi\",\r\n        \"lastName\": \"E\",\r\n        \"emailId\": \"gopi@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8085/update/53",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"update",
+						"53"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actuator_Beans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/actuator/env",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"actuator",
+						"env"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actuator_mappings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/actuator/mappings",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"actuator",
+						"mappings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actuator_health",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "actuator_configprops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/actuator/configprops",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"actuator",
+						"configprops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actuator_metrics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/actuator/metrics",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"actuator",
+						"metrics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "circuit_breaker_sample_getempApi",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "nameApi_service_circuit_breaker",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "salaryApi_circuit_breaker",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
